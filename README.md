@@ -31,7 +31,7 @@ progresses this may expand to fulfill other needs like testing and CI/CD.
 </details>
 
 Project Installation:
- 1. Use `git clone https://github.com/ufssd/ufssd-webiste` to clone the project.
+ 1. Use `git clone https://github.com/ufssd/ufssd-website` to clone the project.
  2. Run `npm install` to install dependencies.
  3. Run `npm run dev` to start the development server.
  4. Visit `localhost:3000` to view the website.
