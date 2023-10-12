@@ -1,17 +1,24 @@
 on:
   push:
-    branches:    
-      - '*'
+    branches-ignore:    
+      - master
+      - gh-pages
+
 jobs:
   lint:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Set up Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18.x
+
     - name: Checkout repo
       uses: actions/checkout@v2
 
     - name: Install dependencies
-      run: npm install
+      run: npm ci 
 
     - name: Run lint
       run: npm run lint
