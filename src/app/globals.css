@@ -36,10 +36,17 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+p {
+  margin-bottom: 0.5rem;
+}
+
 .centerText {
   text-align: center;
 }
 
 .page-landing-background {
-
+  background-image: url("/ssd-background.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-color: #cccccc;
 }

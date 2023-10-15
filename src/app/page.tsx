@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="centerText">
+    <main className="centerText page-landing-background">
       <h1>Society of Software Developers</h1>
       <h2>Software Development & Design</h2>
       <p>
