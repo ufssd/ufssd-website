@@ -11,7 +11,8 @@ export default function About() {
 </p>
 </div>
      
-      <div className={styles.about__image_container}><Image src="group_photo.jpg" alt="A group of club members sitting in a room looking at the camera and posing" height={600} width={600} />
+      <div className={styles.about__image_container}><Image src="group_photo.jpg" alt="fall_2022_planning_meeting.jpg
+SSD members (about 30) at our Fall 2022 planning meeting in CISE." height={600} width={600} />
       </div>
       
     </main>
