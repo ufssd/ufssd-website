@@ -27,6 +27,8 @@ body {
 }
 
 .h1-landing-text {
+  /* TEMPORARY color till global theme is placed*/
+  color: #035496;
   font-size: 2em;
   margin-bottom: 1rem;
   margin-left: 1em;
@@ -34,6 +36,8 @@ body {
 }
 
 .h2-landing-text {
+  /* TEMPORARY color till global theme is placed*/
+  color: #057cde;
   font-size: 1.5em;
   margin-bottom: 0.5rem;
   margin-left: 1em;
@@ -41,6 +45,8 @@ body {
 }
 
 .p-landing-text {
+  /* TEMPORARY color till global theme is placed*/
+  color: #59b1f9;
   margin-bottom: 0.5rem;
   margin-left: 1em;
   margin-right: 1em;
@@ -57,3 +63,4 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
