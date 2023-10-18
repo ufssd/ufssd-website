@@ -52,6 +52,8 @@ body {
 
 .landing-background {
   background-image: url("/landing-background.jpg");
+  background-position: center;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
 }
