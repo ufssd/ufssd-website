@@ -5,7 +5,7 @@ export default function About() {
   return (
     <main className={styles.about}>
       <h1 className={styles.title}>About</h1>
-      <div className={styles.description_container}>
+      <div className={styles.descriptionContainer}>
         <p className={styles.description}>
           We are an organization that helps students learn and apply software
           engineering principles to real-world applications. We host weekly
@@ -17,7 +17,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className={styles.image_container}>
+      <div className={styles.imageContainer}>
         <Image
           src="group_photo.jpg"
           alt="fall_2022_planning_meeting.jpg
