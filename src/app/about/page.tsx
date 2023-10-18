@@ -4,9 +4,9 @@ import styles from "./About.module.css";
 export default function About() {
   return (
     <main className={styles.about}>
-      <h1 className={styles.about__title}>About</h1>
-      <div className={styles.about__description_container}>
-        <p className={styles.about__description}>
+      <h1 className={styles.title}>About</h1>
+      <div className={styles.description_container}>
+        <p className={styles.description}>
           We are an organization that helps students learn and apply software
           engineering principles to real-world applications. We host weekly
           workshops on topics like software design to help bridge the gap
@@ -17,7 +17,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className={styles.about__image_container}>
+      <div className={styles.image_container}>
         <Image
           src="group_photo.jpg"
           alt="fall_2022_planning_meeting.jpg
