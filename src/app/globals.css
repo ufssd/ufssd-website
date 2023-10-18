@@ -26,27 +26,32 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-h1 {
+.h1-landing-text {
   font-size: 2em;
   margin-bottom: 1rem;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-h2 {
+.h2-landing-text {
   font-size: 1.5em;
   margin-bottom: 0.5rem;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-p {
+.p-landing-text {
   margin-bottom: 0.5rem;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-.centerText {
+.center-text {
   text-align: center;
 }
 
-.page-landing-background {
-  background-image: url("/ssd-background.jpg");
+.landing-background {
+  background-image: url("/landing-background.jpg");
   width: 100vw;
   height: 100vh;
-  background-color: #cccccc;
 }

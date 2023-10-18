@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-    <main className="centerText page-landing-background">
-      <h1>Society of Software Developers</h1>
-      <h2>Software Development & Design</h2>
-      <p>
+    <main className="center-text landing-background">
+      <h1 className="h1-landing-text">Society of Software Developers</h1>
+      <h2 className="h2-landing-text">Software Development & Design</h2>
+      <p className="p-landing-text">
         We are an organization that helps students learn and apply software
         engineering principles to real-world applications. We host weekly
         workshops on topics like software design to help bridge the gap between
@@ -12,8 +12,8 @@ export default function Home() {
         better prepare members for team projects, internships, and careers in
         software development.
       </p>
-      <h2>Fall 2023 Meetings</h2>
-      <p>Tuesday, 6:15pm in CISE A101 and over Zoom</p>
+      <h2 className="h2-landing-text">Fall 2023 Meetings</h2>
+      <p className="p-landing-text">Tuesday, 6:15pm in CISE A101 and over Zoom</p>
     </main>
   );
 }
