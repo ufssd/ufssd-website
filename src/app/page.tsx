@@ -13,7 +13,9 @@ export default function Home() {
         software development.
       </p>
       <h2 className="h2-landing-text">Fall 2023 Meetings</h2>
-      <p className="p-landing-text">Tuesday, 6:15pm in CISE A101 and over Zoom</p>
+      <p className="p-landing-text">
+        Tuesday, 6:15pm in CISE A101 and over Zoom
+      </p>
     </main>
   );
 }
