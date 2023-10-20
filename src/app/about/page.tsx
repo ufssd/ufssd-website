@@ -19,9 +19,8 @@ export default function About() {
 
       <div className={styles.imageContainer}>
         <Image
-          src="group_photo.jpg"
-          alt="fall_2022_planning_meeting.jpg
-SSD members (about 30) at our Fall 2022 planning meeting in CISE."
+          src="fall_2022_planning_meeting.jpg"
+          alt="SSD members (about 30) at our Fall 2022 planning meeting in CISE."
           height={600}
           width={600}
         />
