@@ -1,56 +1,81 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {
+  const pathname = usePathname();
+
+  const pageLinksData = [
+    {
+      name: "Home",
+      url: "/",
+    },
+    {
+      name: "About",
+      url: "/about",
+    },
+  ];
+
+  const socialLinksData = [
+    {
+      name: "Discord",
+      url: "https://discord.gg/5SyB3yx",
+      icon: "/discord_mark.svg",
+    },
+    {
+      name: "GitHub",
+      url: "https://github.com/ufssd",
+      icon: "/github_mark.svg",
+    },
+    {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/company/ssduf",
+      icon: "/linkedin_logo.png",
+    },
+    {
+      name: "YouTube",
+      url: "https://www.youtube.com/@ufssd",
+      icon: "/youtube_icon.png",
+    },
+    {
+      name: "Instagram",
+      url: "https://www.instagram.com/uf.ssd/",
+      icon: "/instagram_glyph.svg",
+    },
+  ];
+
+  const pageLinks = pageLinksData.map((link) => (
+    <Link
+      key={link.name}
+      href={link.url}
+      className={pathname === link.url ? styles.pageLinkOpen : ""}
+    >
+      {link.name}
+    </Link>
+  ));
+
+  const socialLinks = socialLinksData.map((link) => (
+    <a
+      key={link.name}
+      target="_blank"
+      rel="noopener noreferrer"
+      href={link.url}
+    >
+      <Image src={link.icon} alt={`${link.name} Logo`} width="32" height="32" />
+    </a>
+  ));
+
   return (
     <header className={styles.navbar}>
       <Link href="/">
         <Image src="/ssd_logo.svg" alt="SSD Logo" width="50" height="50" />
       </Link>
-      <nav>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-      </nav>
-      <div className={styles.socialLinks}>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://discord.gg/5SyB3yx"
-        >
-          <Image
-            src="/discord_mark.svg"
-            alt="Discord Logo"
-            width="40"
-            height="40"
-          />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/ufssd"
-        >
-          <Image
-            src="/github_mark.svg"
-            alt="GitHub Logo"
-            width="40"
-            height="40"
-          />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/company/ssduf"
-        >
-          <Image
-            src="/linkedin_logo.png"
-            alt="LinkedIn Logo"
-            width="40"
-            height="40"
-          />
-        </a>
-      </div>
+      <nav>{pageLinks}</nav>
+      <div className={styles.socialLinks}>{socialLinks}</div>
     </header>
   );
 }
