@@ -26,6 +26,30 @@ export default function Navbar() {
             height="40"
           />
         </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/ufssd"
+        >
+          <Image
+            src="/github_mark.svg"
+            alt="GitHub Logo"
+            width="40"
+            height="40"
+          />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/company/ssduf"
+        >
+          <Image
+            src="/linkedin_logo.png"
+            alt="LinkedIn Logo"
+            width="40"
+            height="40"
+          />
+        </a>
       </div>
     </header>
   );
