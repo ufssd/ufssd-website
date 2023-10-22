@@ -24,12 +24,12 @@ export default function Navbar() {
     {
       name: "Discord",
       url: "https://discord.gg/5SyB3yx",
-      icon: "/discord_mark.svg",
+      icon: "/discord_logo.svg",
     },
     {
       name: "GitHub",
       url: "https://github.com/ufssd",
-      icon: "/github_mark.svg",
+      icon: "/github_logo.svg",
     },
     {
       name: "LinkedIn",
@@ -39,12 +39,12 @@ export default function Navbar() {
     {
       name: "YouTube",
       url: "https://www.youtube.com/@ufssd",
-      icon: "/youtube_icon.png",
+      icon: "/youtube_logo.png",
     },
     {
       name: "Instagram",
       url: "https://www.instagram.com/uf.ssd/",
-      icon: "/instagram_glyph.svg",
+      icon: "/instagram_logo.svg",
     },
   ];
 
