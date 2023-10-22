@@ -1,7 +1,5 @@
 .navbar {
-  /* style */
   background: rgba(0, 0, 0, 0.2);
-  /* content */
   padding: 10px;
   display: flex;
   align-items: center;
@@ -9,36 +7,30 @@
 }
 
 .navbar nav {
-  /* content */
   display: flex;
   gap: 10px;
 }
 
 .navbar a {
-  /* style */
   font-size: 1.3rem;
   font-weight: 700;
 }
 
 .navbar a:hover,
 .pageLinkOpen {
-  /* style */
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
 }
 
 .socialLinks {
-  /* align */
   margin-left: auto;
   margin-right: 10px;
-  /* content */
   display: flex;
   gap: 12px;
   align-items: center;
 }
 
 .socialLinks img:hover {
-  /* style */
   transform: scale(1.05);
 }
