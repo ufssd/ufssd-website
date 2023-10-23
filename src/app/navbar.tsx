@@ -6,47 +6,47 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./Navbar.module.css";
 
+const pageLinksData = [
+  {
+    name: "Home",
+    url: "/",
+  },
+  {
+    name: "About",
+    url: "/about",
+  },
+];
+
+const socialLinksData = [
+  {
+    name: "Discord",
+    url: "https://discord.gg/5SyB3yx",
+    icon: "/discord_logo.svg",
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com/ufssd",
+    icon: "/github_logo.svg",
+  },
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/company/ssduf",
+    icon: "/linkedin_logo.png",
+  },
+  {
+    name: "YouTube",
+    url: "https://www.youtube.com/@ufssd",
+    icon: "/youtube_logo.png",
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/uf.ssd/",
+    icon: "/instagram_logo.svg",
+  },
+];
+
 export default function Navbar() {
   const pathname = usePathname();
-
-  const pageLinksData = [
-    {
-      name: "Home",
-      url: "/",
-    },
-    {
-      name: "About",
-      url: "/about",
-    },
-  ];
-
-  const socialLinksData = [
-    {
-      name: "Discord",
-      url: "https://discord.gg/5SyB3yx",
-      icon: "/discord_logo.svg",
-    },
-    {
-      name: "GitHub",
-      url: "https://github.com/ufssd",
-      icon: "/github_logo.svg",
-    },
-    {
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/company/ssduf",
-      icon: "/linkedin_logo.png",
-    },
-    {
-      name: "YouTube",
-      url: "https://www.youtube.com/@ufssd",
-      icon: "/youtube_logo.png",
-    },
-    {
-      name: "Instagram",
-      url: "https://www.instagram.com/uf.ssd/",
-      icon: "/instagram_logo.svg",
-    },
-  ];
 
   const pageLinks = pageLinksData.map((link) => (
     <Link
