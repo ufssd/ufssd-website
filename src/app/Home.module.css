@@ -7,7 +7,7 @@
     margin-right: 1em;
 }
   
-h2 {
+.landingBackground h2 {
     /* TEMPORARY color till global theme is placed*/
     color: #057cde;
     font-size: 1.5em;
@@ -16,7 +16,7 @@ h2 {
     margin-right: 1em;
 }
 
-p {
+.landingBackground p {
     /* TEMPORARY color till global theme is placed*/
     color: #59b1f9;
     margin-bottom: 0.5rem;
