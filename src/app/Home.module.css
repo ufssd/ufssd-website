@@ -1,24 +1,18 @@
-.landingTitle {
-    /* TEMPORARY color till global theme is placed*/
-    color: #035496;
+.landingBackground h1 {
     font-size: 2em;
     margin-bottom: 1rem;
     margin-left: 1em;
     margin-right: 1em;
 }
   
-h2 {
-    /* TEMPORARY color till global theme is placed*/
-    color: #057cde;
+.landingBackground h2 {
     font-size: 1.5em;
     margin-bottom: 0.5rem;
     margin-left: 1em;
     margin-right: 1em;
 }
 
-p {
-    /* TEMPORARY color till global theme is placed*/
-    color: #59b1f9;
+.landingBackground p {
     margin-bottom: 0.5rem;
     margin-left: 1em;
     margin-right: 1em;
