@@ -1,5 +1,5 @@
-import styles from "./OfficerCard.module.css";
 import Image from "next/image";
+import styles from "./OfficerCard.module.css";
 
 type SocialLink = {
   name: string;
