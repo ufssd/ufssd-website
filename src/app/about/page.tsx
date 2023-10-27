@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./About.module.css";
 
+import OfficerCard from "./officer-card";
+
 export default function About() {
   return (
     <main className={styles.about}>
@@ -25,6 +27,30 @@ export default function About() {
           width={600}
         />
       </div>
+
+      <section className={styles.officers}>
+        <div className={styles.container}>
+          <h2>Officers</h2>
+          <OfficerCard
+            position="GOAT SSD Member"
+            image="/eric-navar.webp"
+            alt=""
+            name="Eric Navar"
+            socialLinksData={[
+              {
+                name: "GitHub",
+                url: "https://github.com/EricNavar",
+                icon: "/github_logo.svg",
+              },
+              {
+                name: "LinkedIn",
+                url: "https://www.linkedin.com/in/ericnavar/",
+                icon: "/linkedin_logo.png",
+              },
+            ]}
+          />
+        </div>
+      </section>
     </main>
   );
 }

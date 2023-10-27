@@ -15,8 +15,28 @@ See: https://github.com/css-modules/css-modules#naming */
     font-size: 3rem;
 }
 
-
 .description {
     margin: 0 auto;
     max-width: 1000px;
+}
+
+.officers {
+    /* align */
+    margin-top: 50px;
+    height: 400px;
+    /* style */
+    text-align: left;
+    /* background: purple; */
+    /* content */
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    /* align */
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+    /* style */
+    /* background: blue; */
 }

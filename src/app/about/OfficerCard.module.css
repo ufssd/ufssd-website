@@ -1,0 +1,43 @@
+.officerCard {
+  /* align */
+  width: 300px;
+  max-width: 100%;
+  height: 350px;
+  /* style */
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  /* content */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portrait {
+  /* style */
+  border-radius: 5px;
+}
+
+.officerCard h3 {
+  /* style */
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.officerCard h4 {
+  /* style */
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.socialLinks {
+  /* content */
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLinks a:hover {
+  /* style */
+  transform: scale(1.1);
+}
