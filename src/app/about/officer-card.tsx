@@ -7,7 +7,7 @@ type SocialLink = {
   icon: string;
 };
 
-type OfficerCardProperties = {
+export type OfficerCardProperties = {
   position: string;
   image: string;
   alt: string;

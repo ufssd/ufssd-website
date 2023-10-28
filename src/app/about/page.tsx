@@ -1,9 +1,113 @@
 import Image from "next/image";
 import styles from "./About.module.css";
 
-import OfficerCard from "./officer-card";
+import OfficerCard, { OfficerCardProperties } from "./officer-card";
+
+const officerCardData: OfficerCardProperties[] = [
+  {
+    position: "GOAT SSD Member",
+    image: "/eric-navar.webp",
+    alt: "",
+    name: "Eric Navar",
+    socialLinksData: [
+      {
+        name: "GitHub",
+        url: "https://github.com/EricNavar",
+        icon: "/github_logo.svg",
+      },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/ericnavar/",
+        icon: "/linkedin_logo.png",
+      },
+    ],
+  },
+  {
+    position: "GOAT SSD Member",
+    image: "/eric-navar.webp",
+    alt: "",
+    name: "Eric Navar",
+    socialLinksData: [
+      {
+        name: "GitHub",
+        url: "https://github.com/EricNavar",
+        icon: "/github_logo.svg",
+      },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/ericnavar/",
+        icon: "/linkedin_logo.png",
+      },
+    ],
+  },
+  {
+    position: "GOAT SSD Member",
+    image: "/eric-navar.webp",
+    alt: "",
+    name: "Eric Navar",
+    socialLinksData: [
+      {
+        name: "GitHub",
+        url: "https://github.com/EricNavar",
+        icon: "/github_logo.svg",
+      },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/ericnavar/",
+        icon: "/linkedin_logo.png",
+      },
+    ],
+  },
+  {
+    position: "GOAT SSD Member",
+    image: "/eric-navar.webp",
+    alt: "",
+    name: "Eric Navar",
+    socialLinksData: [
+      {
+        name: "GitHub",
+        url: "https://github.com/EricNavar",
+        icon: "/github_logo.svg",
+      },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/ericnavar/",
+        icon: "/linkedin_logo.png",
+      },
+    ],
+  },
+  {
+    position: "GOAT SSD Member",
+    image: "/eric-navar.webp",
+    alt: "",
+    name: "Eric Navar",
+    socialLinksData: [
+      {
+        name: "GitHub",
+        url: "https://github.com/EricNavar",
+        icon: "/github_logo.svg",
+      },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/ericnavar/",
+        icon: "/linkedin_logo.png",
+      },
+    ],
+  },
+];
 
 export default function About() {
+  const officerCards = officerCardData.map((cardData) => (
+    <OfficerCard
+      position={cardData.position}
+      image={cardData.image}
+      alt={cardData.alt}
+      name={cardData.name}
+      socialLinksData={cardData.socialLinksData}
+      key={cardData.name}
+    />
+  ));
+
   return (
     <main className={styles.about}>
       <h1 className={styles.title}>About</h1>
@@ -31,24 +135,7 @@ export default function About() {
       <section className={styles.officers}>
         <div className={styles.container}>
           <h2>Officers</h2>
-          <OfficerCard
-            position="GOAT SSD Member"
-            image="/eric-navar.webp"
-            alt=""
-            name="Eric Navar"
-            socialLinksData={[
-              {
-                name: "GitHub",
-                url: "https://github.com/EricNavar",
-                icon: "/github_logo.svg",
-              },
-              {
-                name: "LinkedIn",
-                url: "https://www.linkedin.com/in/ericnavar/",
-                icon: "/linkedin_logo.png",
-              },
-            ]}
-          />
+          <div className={styles.cardContainer}>{officerCards}</div>
         </div>
       </section>
     </main>
