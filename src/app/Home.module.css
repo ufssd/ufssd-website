@@ -1,33 +1,14 @@
-.landingBackground h1 {
-    font-size: 2em;
-    margin-bottom: 1rem;
-    margin-left: 1em;
-    margin-right: 1em;
-}
-  
-.landingBackground h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.5rem;
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-.landingBackground p {
-    margin-bottom: 0.5rem;
-    margin-left: 1em;
-    margin-right: 1em;
-}
-  
-.centerText {
+.content {
+    margin: 0 auto;
+    max-width: 800px;
     text-align: center;
 }
-  
+
 .landingBackground {
+    padding: 1px; /* hack to prevent margin collapse */
     background-image: url("/landing-background.jpg");
     background-position: center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
 }
-  
-  
