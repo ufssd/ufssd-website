@@ -5,10 +5,10 @@ import OfficerCard, { OfficerCardProperties } from "./officer-card";
 
 const officerCardData: OfficerCardProperties[] = [
   {
-    position: "GOAT SSD Member",
+    position: "President",
     image: "/eric-navar.webp",
     alt: "",
-    name: "Eric Navar",
+    name: "Yonas Bahre",
     socialLinksData: [
       {
         name: "GitHub",
@@ -23,10 +23,10 @@ const officerCardData: OfficerCardProperties[] = [
     ],
   },
   {
-    position: "GOAT SSD Member",
+    position: "Vice President",
     image: "/eric-navar.webp",
     alt: "",
-    name: "Eric Navar",
+    name: "Michael Hayworth",
     socialLinksData: [
       {
         name: "GitHub",
@@ -41,10 +41,10 @@ const officerCardData: OfficerCardProperties[] = [
     ],
   },
   {
-    position: "GOAT SSD Member",
+    position: "Treasurer",
     image: "/eric-navar.webp",
     alt: "",
-    name: "Eric Navar",
+    name: "Stephen Coomes",
     socialLinksData: [
       {
         name: "GitHub",
@@ -59,10 +59,10 @@ const officerCardData: OfficerCardProperties[] = [
     ],
   },
   {
-    position: "GOAT SSD Member",
+    position: "Outreach Officer",
     image: "/eric-navar.webp",
     alt: "",
-    name: "Eric Navar",
+    name: "Angel Lopez",
     socialLinksData: [
       {
         name: "GitHub",
@@ -77,10 +77,28 @@ const officerCardData: OfficerCardProperties[] = [
     ],
   },
   {
-    position: "GOAT SSD Member",
+    position: "Program Officer",
     image: "/eric-navar.webp",
     alt: "",
-    name: "Eric Navar",
+    name: "Param Gupta",
+    socialLinksData: [
+      {
+        name: "GitHub",
+        url: "https://github.com/EricNavar",
+        icon: "/github_logo.svg",
+      },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/ericnavar/",
+        icon: "/linkedin_logo.png",
+      },
+    ],
+  },
+  {
+    position: "Involvement Officer",
+    image: "/eric-navar.webp",
+    alt: "",
+    name: "CJ Weir",
     socialLinksData: [
       {
         name: "GitHub",
