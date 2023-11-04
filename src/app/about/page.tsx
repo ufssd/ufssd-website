@@ -6,7 +6,7 @@ import OfficerCard, { OfficerCardProperties } from "./officer-card";
 const officerCardData: OfficerCardProperties[] = [
   {
     position: "President",
-    image: "/eric-navar.webp",
+    image: "public/officers/Yonas_Bahre.jpg",
     alt: "",
     name: "Yonas Bahre",
     socialLinksData: [
@@ -24,7 +24,7 @@ const officerCardData: OfficerCardProperties[] = [
   },
   {
     position: "Vice President",
-    image: "/eric-navar.webp",
+    image: "public/officers/Michael_Hayworth.jpg",
     alt: "",
     name: "Michael Hayworth",
     socialLinksData: [
@@ -42,7 +42,7 @@ const officerCardData: OfficerCardProperties[] = [
   },
   {
     position: "Treasurer",
-    image: "/eric-navar.webp",
+    image: "public/officers/Stephen_Coomes.jpg",
     alt: "",
     name: "Stephen Coomes",
     socialLinksData: [
@@ -60,7 +60,7 @@ const officerCardData: OfficerCardProperties[] = [
   },
   {
     position: "Outreach Officer",
-    image: "/eric-navar.webp",
+    image: "public/officers/Angel_Lopez.png",
     alt: "",
     name: "Angel Lopez",
     socialLinksData: [
@@ -78,7 +78,7 @@ const officerCardData: OfficerCardProperties[] = [
   },
   {
     position: "Program Officer",
-    image: "/eric-navar.webp",
+    image: "public/officers/Param_Gupta.jpg",
     alt: "",
     name: "Param Gupta",
     socialLinksData: [
@@ -96,7 +96,7 @@ const officerCardData: OfficerCardProperties[] = [
   },
   {
     position: "Involvement Officer",
-    image: "/eric-navar.webp",
+    image: "public/officers/CJ_Weir.jpg",
     alt: "",
     name: "CJ Weir",
     socialLinksData: [
