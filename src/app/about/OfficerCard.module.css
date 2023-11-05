@@ -42,6 +42,17 @@
   gap: 1rem;
 }
 
+/* 
+The website logo is slightly smaller than the other logos.
+This scales it up a tiny bit.
+This is where the logo comes from:
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Alanguage%3AFILL%401%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+*/
+.socialLinks img[data-name="Website"] {
+  /* style */
+  transform: scale(1.2);
+}
+
 .socialLinks a:hover {
   /* style */
   transform: scale(1.1);

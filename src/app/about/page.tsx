@@ -59,6 +59,11 @@ const officerCardData: OfficerCardProperties[] = [
         url: "https://www.linkedin.com/in/angel1254/",
         icon: "/linkedin_logo.png",
       },
+      {
+        name: "Website",
+        url: "https://www.angel1254.com/",
+        icon: "/web_logo.svg",
+      },
     ],
   },
   {

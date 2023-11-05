@@ -29,7 +29,13 @@ export default function OfficerCard({
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Image src={link.icon} alt={link.name} height={30} width={30} />
+      <Image
+        src={link.icon}
+        alt={link.name}
+        height={30}
+        width={30}
+        data-name={link.name}
+      />
     </a>
   ));
 
