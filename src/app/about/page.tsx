@@ -11,13 +11,8 @@ const officerCardData: OfficerCardProperties[] = [
     name: "Yonas Bahre",
     socialLinksData: [
       {
-        name: "GitHub",
-        url: "https://github.com/EricNavar",
-        icon: "/github_logo.svg",
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ericnavar/",
+        url: "https://www.linkedin.com/in/yonasbahre/",
         icon: "/linkedin_logo.png",
       },
     ],
@@ -29,13 +24,8 @@ const officerCardData: OfficerCardProperties[] = [
     name: "Michael Hayworth",
     socialLinksData: [
       {
-        name: "GitHub",
-        url: "https://github.com/EricNavar",
-        icon: "/github_logo.svg",
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ericnavar/",
+        url: "https://www.linkedin.com/in/michaeldhayworth/",
         icon: "/linkedin_logo.png",
       },
     ],
@@ -47,13 +37,8 @@ const officerCardData: OfficerCardProperties[] = [
     name: "Stephen Coomes",
     socialLinksData: [
       {
-        name: "GitHub",
-        url: "https://github.com/EricNavar",
-        icon: "/github_logo.svg",
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ericnavar/",
+        url: "https://www.linkedin.com/in/stephen-coomes-8a4885221/",
         icon: "/linkedin_logo.png",
       },
     ],
@@ -66,12 +51,12 @@ const officerCardData: OfficerCardProperties[] = [
     socialLinksData: [
       {
         name: "GitHub",
-        url: "https://github.com/EricNavar",
+        url: "https://github.com/angel1254mc",
         icon: "/github_logo.svg",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ericnavar/",
+        url: "https://www.linkedin.com/in/angel1254/",
         icon: "/linkedin_logo.png",
       },
     ],
@@ -83,13 +68,8 @@ const officerCardData: OfficerCardProperties[] = [
     name: "Param Gupta",
     socialLinksData: [
       {
-        name: "GitHub",
-        url: "https://github.com/EricNavar",
-        icon: "/github_logo.svg",
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ericnavar/",
+        url: "https://www.linkedin.com/in/paramg/",
         icon: "/linkedin_logo.png",
       },
     ],
@@ -101,13 +81,8 @@ const officerCardData: OfficerCardProperties[] = [
     name: "CJ Weir",
     socialLinksData: [
       {
-        name: "GitHub",
-        url: "https://github.com/EricNavar",
-        icon: "/github_logo.svg",
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ericnavar/",
+        url: "https://www.linkedin.com/in/cj-weir/",
         icon: "/linkedin_logo.png",
       },
     ],
