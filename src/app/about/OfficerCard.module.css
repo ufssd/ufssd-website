@@ -15,7 +15,11 @@
 }
 
 .portrait {
+  /* align */
+  height: 180px;
+  width: 180px;
   /* style */
+  object-fit: cover;
   border-radius: 5px;
 }
 
