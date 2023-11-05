@@ -23,7 +23,12 @@ export default function OfficerCard({
   socialLinksData,
 }: OfficerCardProperties) {
   const socialLinks = socialLinksData.map((link) => (
-    <a href={link.url} key={link.name}>
+    <a
+      href={link.url}
+      key={link.name}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <Image src={link.icon} alt={link.name} height={30} width={30} />
     </a>
   ));
