@@ -42,7 +42,7 @@ See: https://github.com/css-modules/css-modules#naming */
     /* align */
     height: 100%;
     width: 100%;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     /* style */
     /* background: blue; */
 }
