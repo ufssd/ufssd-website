@@ -4,8 +4,6 @@
     text-align: center;
 }
 
-/* CSS Modules recommends camelCase
-See: https://github.com/css-modules/css-modules#naming */
 .imageContainer {
     display: flex;
     justify-content: center;
@@ -27,31 +25,21 @@ See: https://github.com/css-modules/css-modules#naming */
 }
 
 .officers {
-    /* align */
     margin-top: 50px;
     height: 400px;
-    /* style */
     text-align: left;
-    /* background: purple; */
-    /* content */
     display: flex;
     justify-content: center;
 }
 
 .container {
-    /* align */
     height: 100%;
     width: 100%;
-    /* max-width: 1000px; */
-    /* style */
-    /* background: blue; */
 }
 
 .cardContainer {
-    /* content */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-
 }
