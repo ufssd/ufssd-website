@@ -11,4 +11,15 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
   },
+  rules: {
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        "replacements": {
+          "prop": false,
+          "props": false,
+        }
+      }
+    ]
+  }
 };

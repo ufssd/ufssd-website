@@ -7,7 +7,7 @@ export type SocialLink = {
   icon: string;
 };
 
-export type OfficerCardProperties = {
+export type OfficerCardProps = {
   position: string;
   image: string;
   name: string;
@@ -19,7 +19,7 @@ export default function OfficerCard({
   image,
   name,
   socialLinksData,
-}: OfficerCardProperties) {
+}: OfficerCardProps) {
   const socialLinks = socialLinksData.map((link) => (
     <a
       href={link.url}

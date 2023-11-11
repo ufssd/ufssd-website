@@ -1,9 +1,9 @@
 import Image from "next/image";
 import styles from "./About.module.css";
 
-import OfficerCard, { OfficerCardProperties } from "./officer-card";
+import OfficerCard, { OfficerCardProps } from "./officer-card";
 
-const officerCardData: OfficerCardProperties[] = [
+const officerCardData: OfficerCardProps[] = [
   {
     position: "President",
     image: "public/officers/Yonas_Bahre.jpg",
