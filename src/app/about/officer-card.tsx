@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./OfficerCard.module.css";
 
-type SocialLink = {
+export type SocialLink = {
   name: string;
   url: string;
   icon: string;
@@ -10,7 +10,6 @@ type SocialLink = {
 export type OfficerCardProperties = {
   position: string;
   image: string;
-  alt: string;
   name: string;
   socialLinksData: SocialLink[];
 };
@@ -18,7 +17,6 @@ export type OfficerCardProperties = {
 export default function OfficerCard({
   position,
   image,
-  alt,
   name,
   socialLinksData,
 }: OfficerCardProperties) {
@@ -45,7 +43,7 @@ export default function OfficerCard({
       <Image
         className={styles.portrait}
         src={image}
-        alt={alt}
+        alt={`Profile picture of ${name}`}
         height={180}
         width={180}
       />

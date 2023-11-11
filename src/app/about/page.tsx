@@ -7,7 +7,6 @@ const officerCardData: OfficerCardProperties[] = [
   {
     position: "President",
     image: "public/officers/Yonas_Bahre.jpg",
-    alt: "",
     name: "Yonas Bahre",
     socialLinksData: [
       {
@@ -20,7 +19,6 @@ const officerCardData: OfficerCardProperties[] = [
   {
     position: "Vice President",
     image: "public/officers/Michael_Hayworth.jpg",
-    alt: "",
     name: "Michael Hayworth",
     socialLinksData: [
       {
@@ -33,7 +31,6 @@ const officerCardData: OfficerCardProperties[] = [
   {
     position: "Treasurer",
     image: "public/officers/Stephen_Coomes.jpg",
-    alt: "",
     name: "Stephen Coomes",
     socialLinksData: [
       {
@@ -46,7 +43,6 @@ const officerCardData: OfficerCardProperties[] = [
   {
     position: "Outreach Officer",
     image: "public/officers/Angel_Lopez.png",
-    alt: "",
     name: "Angel Lopez",
     socialLinksData: [
       {
@@ -69,7 +65,6 @@ const officerCardData: OfficerCardProperties[] = [
   {
     position: "Program Officer",
     image: "public/officers/Param_Gupta.jpg",
-    alt: "",
     name: "Param Gupta",
     socialLinksData: [
       {
@@ -82,7 +77,6 @@ const officerCardData: OfficerCardProperties[] = [
   {
     position: "Involvement Officer",
     image: "public/officers/CJ_Weir.jpg",
-    alt: "",
     name: "CJ Weir",
     socialLinksData: [
       {
@@ -97,12 +91,11 @@ const officerCardData: OfficerCardProperties[] = [
 export default function About() {
   const officerCards = officerCardData.map((cardData) => (
     <OfficerCard
+      key={cardData.position}
       position={cardData.position}
       image={cardData.image}
-      alt={cardData.alt}
       name={cardData.name}
       socialLinksData={cardData.socialLinksData}
-      key={cardData.name}
     />
   ));
 
