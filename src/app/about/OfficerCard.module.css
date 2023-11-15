@@ -1,0 +1,50 @@
+.officerCard {
+  width: 250px;
+  max-width: 100%;
+  height: 320px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portrait {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.officerCard h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.officerCard h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+/* 
+The website logo is slightly smaller than the other logos.
+This scales it up a tiny bit.
+This is where the logo comes from:
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Alanguage%3AFILL%401%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+*/
+.socialLinks img[data-name="Website"] {
+  transform: scale(1.2);
+}
+
+.socialLinks a:hover {
+  transform: scale(1.1);
+}

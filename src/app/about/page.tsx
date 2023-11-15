@@ -1,7 +1,20 @@
 import Image from "next/image";
 import styles from "./About.module.css";
 
+import OfficerCard from "./officer-card";
+import officerCardData from "./officer-data";
+
 export default function About() {
+  const officerCards = officerCardData.map((cardData) => (
+    <OfficerCard
+      key={cardData.position}
+      position={cardData.position}
+      image={cardData.image}
+      name={cardData.name}
+      socialLinksData={cardData.socialLinksData}
+    />
+  ));
+
   return (
     <main className={styles.content}>
       <h1>About</h1>
@@ -16,13 +29,21 @@ export default function About() {
           careers in software development.
         </p>
       </div>
-      <Image
-        className={styles.image}
-        src="fall_2022_planning_meeting.jpg"
-        alt="SSD members (about 30) at our Fall 2022 planning meeting in CISE."
-        height={600}
-        width={600}
-      />
+      <div className={styles.imageContainer}>
+        <Image
+          className={styles.image}
+          src="fall_2022_planning_meeting.jpg"
+          alt="SSD members (about 30) at our Fall 2022 planning meeting in CISE."
+          height={600}
+          width={600}
+        />
+      </div>
+      <section className={styles.officers}>
+        <div className={styles.container}>
+          <h2>Officers</h2>
+          <div className={styles.cardContainer}>{officerCards}</div>
+        </div>
+      </section>
     </main>
   );
 }
