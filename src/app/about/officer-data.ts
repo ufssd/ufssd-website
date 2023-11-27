@@ -189,8 +189,8 @@ export const officerData: { [key: string]: OfficerCardProps } = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/trevorarichardson/overlay/photo/",
         icon: "/linkedin_logo.png",
-      }
-    ]
+      },
+    ],
   },
   ranger_chenore: {
     position: "",
@@ -202,7 +202,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
         url: "https://www.linkedin.com/in/ranger-chenore/",
         icon: "/linkedin_logo.png",
       },
-    ]
+    ],
   },
   eric_navar: {
     position: "",
@@ -214,53 +214,55 @@ export const officerData: { [key: string]: OfficerCardProps } = {
         url: "https://www.linkedin.com/in/ericnavar/",
         icon: "/linkedin_logo.png",
       },
-    ]
-  }
-}
+    ],
+  },
+};
 
-export const positionData: { [key: string]: { [key: string]: OfficerCardProps }} = {
+export const positionData: {
+  [key: string]: { [key: string]: OfficerCardProps };
+} = {
   "Fall 2023": {
-    "President": officerData.yonas_bahre,
+    President: officerData.yonas_bahre,
     "Vice President": officerData.michael_hayworth,
-    "Treasurer": officerData.stephen_coomes,
+    Treasurer: officerData.stephen_coomes,
     "Outreach Officer": officerData.angel_lopez,
     "Program Officer": officerData.param_gupta,
     "Involvement Officer": officerData.cj_weir,
   },
   "Spring 2023": {
-    "President": officerData.trevor_richardson,
+    President: officerData.trevor_richardson,
     "Vice President": officerData.michael_hayworth,
-    "Treasurer": officerData.yonas_bahre,
+    Treasurer: officerData.yonas_bahre,
     "Outreach Officer": officerData.stephen_coomes,
     "Program Officer": officerData.param_gupta,
     "Involvement Officer": officerData.cj_weir,
   },
   "Fall 2022": {
-    "President": officerData.ranger_chenore,
+    President: officerData.ranger_chenore,
     "Vice President": officerData.trevor_richardson,
-    "Treasurer": officerData.yonas_bahre,
+    Treasurer: officerData.yonas_bahre,
     "Outreach Officer": officerData.michael_hayworth,
     "Program Officer": officerData.alex_good,
     "Involvement Officer": officerData.eric_navar,
   },
   "Spring 2022": {
-    "President": officerData.eric_navar,
+    President: officerData.eric_navar,
     "Vice President": officerData.ranger_chenore,
-    "Treasurer": officerData.caijun_qin,
+    Treasurer: officerData.caijun_qin,
     "Outreach Officer": officerData.michael_hayworth,
     "Program Officer": officerData.trevor_richardson,
     "Involvement Officer": officerData.isaac_fuenmayor,
   },
   "Fall 2021": {
-    "President": officerData.eric_navar,
+    President: officerData.eric_navar,
     "Vice President": officerData.ranger_chenore,
-    "Treasurer": officerData.caijun_qin,
+    Treasurer: officerData.caijun_qin,
     "Outreach Officer": officerData.varun_puri,
     "Program Officer": officerData.trevor_richardson,
     "Involvement Officer": officerData.isaac_fuenmayor,
   },
   "Fall 2020 - Spring 2021": {
-    "President": officerData.varun_puri,
+    President: officerData.varun_puri,
     "Vice President": officerData.eric_navar,
     "Logistics Officer": officerData.andrew_kennedy,
     "Development Officer": officerData.tianrui_li,
@@ -268,13 +270,13 @@ export const positionData: { [key: string]: { [key: string]: OfficerCardProps }}
     "Communications Officer": officerData.ranger_chenore,
   },
   "Fall 2019 - Spring 2020": {
-    "President": officerData.blake_anderson,
+    President: officerData.blake_anderson,
     "Vice President": officerData.song_li,
-    "Treasurer": officerData.varun_puri,
+    Treasurer: officerData.varun_puri,
   },
   "Fall 2018 - Spring 2019": {
-    "President": officerData.blake_anderson,
+    President: officerData.blake_anderson,
     "Vice President": officerData.scott_harrison,
-    "Treasurer": officerData.jacob_bleser,
-  }
-}
+    Treasurer: officerData.jacob_bleser,
+  },
+};

@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./About.module.css";
 
 import OfficerCard from "./officer-card";
-import officerCardData from "./officer-data";
+import officerCardData, { officerData, positionData } from "./officer-data";
 
 export default function About() {
   const officerCards = officerCardData.map((cardData) => (
@@ -14,6 +14,29 @@ export default function About() {
       socialLinksData={cardData.socialLinksData}
     />
   ));
+
+  const officerCardSection = Object.entries(positionData).map(
+    ([semester, officers]) => {
+      const officerCards = Object.entries(officers).map(
+        ([position, officer]) => (
+          <OfficerCard
+            key={`${semester} ${position}`}
+            position={position}
+            image={officer.image}
+            name={officer.name}
+            socialLinksData={officer.socialLinksData}
+          />
+        ),
+      );
+
+      return (
+        <>
+          <h2>{semester}</h2>
+          {officerCards}
+        </>
+      );
+    },
+  );
 
   return (
     <main className={styles.content}>
