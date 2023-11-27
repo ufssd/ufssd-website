@@ -219,7 +219,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
 };
 
 export const positionData: {
-  [key: string]: { [key: string]: OfficerCardProps };
+  [key: string]: { [key: string]: OfficerCardProps | undefined };
 } = {
   "Fall 2023": {
     President: officerData.yonas_bahre,

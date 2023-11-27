@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import styles from "./About.module.css";
 
@@ -5,35 +6,41 @@ import OfficerCard from "./officer-card";
 import officerCardData, { officerData, positionData } from "./officer-data";
 
 export default function About() {
-  const officerCards = officerCardData.map((cardData) => (
-    <OfficerCard
-      key={cardData.position}
-      position={cardData.position}
-      image={cardData.image}
-      name={cardData.name}
-      socialLinksData={cardData.socialLinksData}
-    />
-  ));
+  // const officerCards = officerCardData.map((cardData) => (
+  //   <OfficerCard
+  //     key={cardData.position}
+  //     position={cardData.position}
+  //     image={cardData.image}
+  //     name={cardData.name}
+  //     socialLinksData={cardData.socialLinksData}
+  //   />
+  // ));
 
   const officerCardSection = Object.entries(positionData).map(
     ([semester, officers]) => {
       const officerCards = Object.entries(officers).map(
-        ([position, officer]) => (
-          <OfficerCard
-            key={`${semester} ${position}`}
-            position={position}
-            image={officer.image}
-            name={officer.name}
-            socialLinksData={officer.socialLinksData}
-          />
-        ),
+        ([position, officer]) => {
+          if (officer === undefined) {
+            return <div key={`${semester} ${position}`} />;
+          }
+
+          return (
+            <OfficerCard
+              key={`${semester} ${position}`}
+              position={position}
+              image={officer.image}
+              name={officer.name}
+              socialLinksData={officer.socialLinksData}
+            />
+          );
+        },
       );
 
       return (
-        <>
+        <React.Fragment key={semester}>
           <h2>{semester}</h2>
-          {officerCards}
-        </>
+          <div className={styles.cardContainer}>{officerCards}</div>
+        </React.Fragment>
       );
     },
   );
@@ -64,7 +71,8 @@ export default function About() {
       <section className={styles.officers}>
         <div className={styles.container}>
           <h2>Officers</h2>
-          <div className={styles.cardContainer}>{officerCards}</div>
+          {/* <div className={styles.cardContainer}>{officerCards}</div> */}
+          {officerCardSection}
         </div>
       </section>
     </main>
