@@ -17,7 +17,7 @@
 }
 
 .carouselItem {
-  max-height: 600px;
+  max-height: min(600px, 100vw / 2); /* hack to force reasonable aspect ratio */
   width: 100vw;
   display: flex;
   justify-content: center;
