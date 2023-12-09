@@ -218,7 +218,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
   },
   trevor_richardson: {
     position: "",
-    image: "public/officers/Trevor_Richardson.jpg",
+    image: "/ssd_logo.svg",
     name: "Trevor Richardson",
     socialLinksData: [
       {
@@ -230,7 +230,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
   },
   ranger_chenore: {
     position: "",
-    image: "public/officers/Ranger_Chenore.jpg",
+    image: "/ssd_logo.svg",
     name: "Ranger Chenore",
     socialLinksData: [
       {
@@ -242,7 +242,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
   },
   eric_navar: {
     position: "",
-    image: "public/officers/Eric_Navar.jpg",
+    image: "/ssd_logo.svg",
     name: "Eric Navar",
     socialLinksData: [
       {
@@ -278,7 +278,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
   },
   isaac_fuenmayor: {
     position: "",
-    image: "",
+    image: "/ssd_logo.svg",
     name: "Isaac Fuenmayor",
     socialLinksData: [
       {
@@ -302,7 +302,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
   },
   andrew_kennedy: {
     position: "",
-    image: "",
+    image: "/ssd_logo.svg",
     name: "Andrew Kennedy",
     socialLinksData: [
       {
@@ -326,7 +326,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
   },
   katherine_chan: {
     position: "",
-    image: "",
+    image: "/ssd_logo.svg",
     name: "Katherine Chan",
     socialLinksData: [
       {
@@ -350,7 +350,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
   },
   song_li: {
     position: "",
-    image: "",
+    image: "/ssd_logo.svg",
     name: "Song Li",
     socialLinksData: [
       {
@@ -362,7 +362,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
   },
   scott_harrison: {
     position: "",
-    image: "",
+    image: "/ssd_logo.svg",
     name: "Scott Harrison",
     socialLinksData: [
       {
@@ -374,7 +374,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
   },
   jacob_bleser: {
     position: "",
-    image: "",
+    image: "/ssd_logo.svg",
     name: "Jacob Bleser",
     socialLinksData: [
       {

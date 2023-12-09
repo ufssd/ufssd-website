@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./About.module.css";
 
 import OfficerCard from "./officer-card";
-import officerCardData, { officerData, positionData } from "./officer-data";
+import { positionData } from "./officer-data";
 
 export default function About() {
   // const officerCards = officerCardData.map((cardData) => (
