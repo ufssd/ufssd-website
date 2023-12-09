@@ -45,18 +45,7 @@ export default function ImageCarousel() {
   const carouselItems = images.map((image) => (
     <div className={styles.carouselItem} key={image.src}>
       <Image src={image.src} alt={image.alt} height={600} width={600} />
-      <p className="legend">
-        {image.alt}
-        &nbsp;
-        <a
-          className={styles.genericLink}
-          href={image.src}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View full size
-        </a>
-      </p>
+      <p className="legend">{image.alt}</p>
     </div>
   ));
 

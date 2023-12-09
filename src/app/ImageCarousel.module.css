@@ -26,4 +26,5 @@
 
 .carouselItem img {
   object-fit: cover;
+  pointer-events: auto; /* disabled by react-responsive-carousel */
 }
