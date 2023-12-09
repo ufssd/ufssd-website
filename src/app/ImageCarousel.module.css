@@ -1,11 +1,9 @@
 .genericLink {
-  /* style */
   text-decoration: underline;
   color: blue;
 }
 
 .genericLink:visited {
-  /* style */
   color: purple;
 }
 
