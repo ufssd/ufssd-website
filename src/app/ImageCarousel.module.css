@@ -1,0 +1,30 @@
+.genericLink {
+  text-decoration: underline;
+  color: blue;
+}
+
+.genericLink:visited {
+  color: purple;
+}
+
+.imageCarousel {
+  display: flex;
+  justify-content: center;
+}
+
+.imageCarousel .container {
+  width: 100vw;
+}
+
+.carouselItem {
+  max-height: min(600px, 100vw / 2); /* hack to force reasonable aspect ratio */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselItem img {
+  object-fit: cover;
+  pointer-events: auto; /* disabled by react-responsive-carousel */
+}

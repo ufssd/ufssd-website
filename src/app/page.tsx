@@ -1,4 +1,5 @@
 import styles from "./Home.module.css";
+import ImageCarousel from "./image-carousel";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         </p>
         <h2>Fall 2023 Meetings</h2>
         <p>Tuesday, 6:15pm in CISE A101 and over Zoom</p>
+        <ImageCarousel />
       </main>
     </div>
   );
