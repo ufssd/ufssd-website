@@ -63,6 +63,7 @@ export default function ImageCarousel() {
           interval={5000}
           stopOnHover
           emulateTouch
+          preventMovementUntilSwipeScrollTolerance
         >
           {carouselItems}
         </Carousel>
