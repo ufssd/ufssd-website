@@ -15,7 +15,7 @@ export type OfficerCardProps = {
 
 export default function OfficerCard({ position, officer }: OfficerCardProps) {
   const socialLinks = Object.entries(officer.socials).map(([site, url]) => (
-    <a href={url} key={site} target="_blank" rel="noopener noreferrer">
+    <a key={site} href={url} target="_blank" rel="noopener noreferrer">
       <Image
         src={socialIcons[site as SocialSite]} // cast key from Object.entries
         alt={site}
