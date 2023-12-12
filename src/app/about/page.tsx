@@ -6,24 +6,10 @@ import OfficerCard from "./officer-card";
 import { positionData } from "./officer-data";
 
 export default function About() {
-  // const officerCards = officerCardData.map((cardData) => (
-  //   <OfficerCard
-  //     key={cardData.position}
-  //     position={cardData.position}
-  //     image={cardData.image}
-  //     name={cardData.name}
-  //     socialLinksData={cardData.socialLinksData}
-  //   />
-  // ));
-
   const officerCardSection = Object.entries(positionData).map(
     ([semester, officers]) => {
       const officerCards = Object.entries(officers).map(
         ([position, officer]) => {
-          if (officer === undefined) {
-            return <div key={`${semester} ${position}`} />;
-          }
-
           return (
             <OfficerCard
               key={`${semester} ${position}`}
@@ -71,7 +57,6 @@ export default function About() {
       <section className={styles.officers}>
         <div className={styles.container}>
           <h2>Officers</h2>
-          {/* <div className={styles.cardContainer}>{officerCards}</div> */}
           {officerCardSection}
         </div>
       </section>

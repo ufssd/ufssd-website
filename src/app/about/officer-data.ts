@@ -31,7 +31,7 @@ const officerCardData: OfficerCardProps[] = [
     ],
   },
   {
-    position: "Tresurer",
+    position: "Treasurer",
     image: "public/officers/Stephen_Coomes.jpg",
     name: "Stephen Coomes",
     socialLinksData: [
@@ -387,7 +387,7 @@ export const officerData: { [key: string]: OfficerCardProps } = {
 };
 
 export const positionData: {
-  [key: string]: { [key: string]: OfficerCardProps | undefined };
+  [key: string]: { [key: string]: OfficerCardProps};
 } = {
   "Fall 2023": {
     President: officerData.yonas_bahre,
