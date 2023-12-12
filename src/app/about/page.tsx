@@ -14,9 +14,7 @@ export default function About() {
             <OfficerCard
               key={`${semester} ${position}`}
               position={position}
-              image={officer.image}
-              name={officer.name}
-              socialLinksData={officer.socialLinksData}
+              officer={officer}
             />
           );
         },

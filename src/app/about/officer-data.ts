@@ -1,394 +1,222 @@
-import { OfficerCardProps } from "./officer-card";
+export type OfficerData = {
+  name: string;
+  image: string;
+  socialLinksData: {
+    name: string;
+    icon: string;
+    url: string;
+  }[];
+};
 
-const officerCardData: OfficerCardProps[] = [
-  {
-    position: "President",
-    image: "public/officers/Yonas_Bahre.jpg",
-    name: "Yonas Bahre",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/yonasbahre/",
-        icon: "/linkedin_logo.png",
-      },
-      {
-        name: "GitHub",
-        url: "https://github.com/yonasbahre",
-        icon: "/github_logo.svg",
-      },
-    ],
-  },
-  {
-    position: "Vice President",
-    image: "public/officers/Michael_Hayworth.jpg",
-    name: "Michael Hayworth",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/michaeldhayworth/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  {
-    position: "Treasurer",
-    image: "public/officers/Stephen_Coomes.jpg",
-    name: "Stephen Coomes",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/stephen-coomes-8a4885221/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  {
-    position: "Outreach Officer",
-    image: "public/officers/Angel_Lopez.png",
-    name: "Angel Lopez",
-    socialLinksData: [
-      {
-        name: "GitHub",
-        url: "https://github.com/angel1254mc",
-        icon: "/github_logo.svg",
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/angel1254/",
-        icon: "/linkedin_logo.png",
-      },
-      {
-        name: "Website",
-        url: "https://www.angel1254.com/",
-        icon: "/web_logo.svg",
-      },
-    ],
-  },
-  {
-    position: "Program Office",
-    image: "public/officers/Param_Gupta.jpg",
-    name: "Param Gupta",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/paramg/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  {
-    position: "",
-    image: "public/officers/CJ_Weir.jpg",
-    name: "CJ Weir",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/cj-weir/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  {
-    position: "",
-    image: "public/officers/Ranger_Chenore.jpg",
-    name: "Ranger Chenore",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ranger-chenore/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  {
-    position: "",
-    image: "public/officers/Trevor_Richardson.jpg",
-    name: "Trevor Richardson",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/trevorarichardson/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  {
-    position: "",
-    image: "public/officers/Eric_Navar.jpg",
-    name: "Eric Navar",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ericnavar/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-];
-
-export default officerCardData;
-
-export const officerData: { [key: string]: OfficerCardProps } = {
-  yonas_bahre: {
-    position: "",
-    image: "public/officers/Yonas_Bahre.jpg",
-    name: "Yonas Bahre",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/yonasbahre/",
-        icon: "/linkedin_logo.png",
-      },
-      {
-        name: "GitHub",
-        url: "https://github.com/yonasbahre",
-        icon: "/github_logo.svg",
-      },
-    ],
-  },
-  michael_hayworth: {
-    position: "",
-    image: "public/officers/Michael_Hayworth.jpg",
-    name: "Michael Hayworth",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/michaeldhayworth/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  stephen_coomes: {
-    position: "",
-    image: "public/officers/Stephen_Coomes.jpg",
-    name: "Stephen Coomes",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/stephen-coomes-8a4885221/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  angel_lopez: {
-    position: "",
-    image: "public/officers/Angel_Lopez.png",
-    name: "Angel Lopez",
-    socialLinksData: [
-      {
-        name: "GitHub",
-        url: "https://github.com/angel1254mc",
-        icon: "/github_logo.svg",
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/angel1254/",
-        icon: "/linkedin_logo.png",
-      },
-      {
-        name: "Website",
-        url: "https://www.angel1254.com/",
-        icon: "/web_logo.svg",
-      },
-    ],
-  },
-  param_gupta: {
-    position: "",
-    image: "public/officers/Param_Gupta.jpg",
-    name: "Param Gupta",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/paramg/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  cj_weir: {
-    position: "",
-    image: "public/officers/CJ_Weir.jpg",
-    name: "CJ Weir",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/cj-weir/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  trevor_richardson: {
-    position: "",
-    image: "/ssd_logo.svg",
-    name: "Trevor Richardson",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/trevorarichardson/overlay/photo/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  ranger_chenore: {
-    position: "",
-    image: "/ssd_logo.svg",
-    name: "Ranger Chenore",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ranger-chenore/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  eric_navar: {
-    position: "",
-    image: "/ssd_logo.svg",
-    name: "Eric Navar",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ericnavar/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
+export const officerData: Record<string, OfficerData> = {
   alex_good: {
-    position: "",
-    image: "public/officers/Alex_Good.jpg",
     name: "Alex Good",
+    image: "public/officers/Alex_Good.jpg",
     socialLinksData: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/alex-good-97806120a/",
         icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  caijun_qin: {
-    position: "",
-    image: "public/officers/Caijun_Qin.jpg",
-    name: "Caijun Qin",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/cq-profile/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  isaac_fuenmayor: {
-    position: "",
-    image: "/ssd_logo.svg",
-    name: "Isaac Fuenmayor",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  varun_puri: {
-    position: "",
-    image: "public/officers/Varun_Puri.jpg",
-    name: "Varun Puri",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/varun-puri/",
-        icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/alex-good-97806120a",
       },
     ],
   },
   andrew_kennedy: {
-    position: "",
-    image: "/ssd_logo.svg",
     name: "Andrew Kennedy",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/andrewphkennedy/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  tianrui_li: {
-    position: "",
-    image: "public/officers/tianrui_li.jpg",
-    name: "Tianrui Li",
-    socialLinksData: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/tianrui-li-b7343518a/",
-        icon: "/linkedin_logo.png",
-      },
-    ],
-  },
-  katherine_chan: {
-    position: "",
     image: "/ssd_logo.svg",
-    name: "Katherine Chan",
     socialLinksData: [
       {
         name: "LinkedIn",
-        url: "",
         icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/andrewphkennedy",
+      },
+    ],
+  },
+  angel_lopez: {
+    name: "Angel Lopez",
+    image: "public/officers/Angel_Lopez.png",
+    socialLinksData: [
+      {
+        name: "GitHub",
+        icon: "/linkedin_logo.png",
+        url: "https://github.com/angel1254mc",
+      },
+      {
+        name: "LinkedIn",
+        icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/angel1254",
+      },
+      {
+        name: "Website",
+        icon: "/linkedin_logo.png",
+        url: "https://angel1254.com",
       },
     ],
   },
   blake_anderson: {
-    position: "",
-    image: "public/officers/blake_anderson.jpg",
     name: "Blake Anderson",
+    image: "public/officers/Blake_Anderson.jpg",
     socialLinksData: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/willbanders/",
         icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/WillBAnders",
       },
     ],
   },
-  song_li: {
-    position: "",
-    image: "/ssd_logo.svg",
-    name: "Song Li",
+  caijun_qin: {
+    name: "Caijun Qin",
+    image: "public/officers/Caijun_Qin.jpg",
     socialLinksData: [
       {
         name: "LinkedIn",
-        url: "",
         icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/cq-profile",
+      },
+    ],
+  },
+  cj_weir: {
+    name: "CJ Weir",
+    image: "public/officers/CJ_Weir.jpg",
+    socialLinksData: [
+      {
+        name: "LinkedIn",
+        icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/cj-weir",
+      },
+    ],
+  },
+  eric_navar: {
+    name: "Eric Navar",
+    image: "public/officers/Eric_Navar.jpg",
+    socialLinksData: [
+      {
+        name: "LinkedIn",
+        icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/ericnavar",
+      },
+    ],
+  },
+  isaac_fuenmayor: {
+    name: "Isaac Fuenmayor",
+    image: "/ssd_logo.svg",
+    socialLinksData: [],
+  },
+  jacob_bleser: {
+    name: "Jacob Bleser",
+    image: "/ssd_logo.svg",
+    socialLinksData: [],
+  },
+  katherine_chan: {
+    name: "Katherine Chan",
+    image: "/ssd_logo.svg",
+    socialLinksData: [],
+  },
+  michael_hayworth: {
+    name: "Michael Hayworth",
+    image: "public/officers/Michael_Hayworth.jpg",
+    socialLinksData: [
+      {
+        name: "LinkedIn",
+        icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/michaeldhayworth",
+      },
+    ],
+  },
+  param_gupta: {
+    name: "Param Gupta",
+    image: "public/officers/Param_Gupta.jpg",
+    socialLinksData: [
+      {
+        name: "LinkedIn",
+        icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/paramg",
+      },
+    ],
+  },
+  ranger_chenore: {
+    name: "Ranger Chenore",
+    image: "public/officers/Ranger_Chenore.jpg",
+    socialLinksData: [
+      {
+        name: "LinkedIn",
+        icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/ranger-chenore",
       },
     ],
   },
   scott_harrison: {
-    position: "",
-    image: "/ssd_logo.svg",
     name: "Scott Harrison",
+    image: "/ssd_logo.svg",
+    socialLinksData: [],
+  },
+  song_li: {
+    name: "Song Li",
+    image: "/ssd_logo.svg",
+    socialLinksData: [],
+  },
+  stephen_coomes: {
+    name: "Stephen Coomes",
+    image: "public/officers/Stephen_Coomes.jpg",
     socialLinksData: [
       {
         name: "LinkedIn",
-        url: "",
         icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/stephen-coomes-8a4885221",
       },
     ],
   },
-  jacob_bleser: {
-    position: "",
-    image: "/ssd_logo.svg",
-    name: "Jacob Bleser",
+  tianrui_li: {
+    name: "Tianrui Li",
+    image: "public/officers/Tianrui_Li.jpg",
     socialLinksData: [
       {
         name: "LinkedIn",
-        url: "",
         icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/tianrui-li-b7343518a",
+      },
+    ],
+  },
+  trevor_richardson: {
+    name: "Trevor Richardson",
+    image: "public/officers/Trevor_Richardson.jpg",
+    socialLinksData: [
+      {
+        name: "LinkedIn",
+        icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/trevorarichardson",
+      },
+    ],
+  },
+  varun_puri: {
+    name: "Varun Puri",
+    image: "public/officers/Varun_Puri.jpg",
+    socialLinksData: [
+      {
+        name: "LinkedIn",
+        icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/varun-puri",
+      },
+    ],
+  },
+  yonas_bahre: {
+    name: "Yonas Bahre",
+    image: "public/officers/Yonas_Bahre.jpg",
+    socialLinksData: [
+      {
+        name: "GitHub",
+        icon: "/linkedin_logo.png",
+        url: "https://github.com/yonasbahre",
+      },
+      {
+        name: "LinkedIn",
+        icon: "/linkedin_logo.png",
+        url: "https://linkedin.com/in/yonasbahre",
       },
     ],
   },
 };
 
-export const positionData: {
-  [key: string]: { [key: string]: OfficerCardProps };
-} = {
+export const positionData: Record<string, Record<string, OfficerData>> = {
   "Fall 2023": {
     President: officerData.yonas_bahre,
     "Vice President": officerData.michael_hayworth,
