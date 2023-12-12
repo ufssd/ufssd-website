@@ -1,6 +1,12 @@
 import Image from "next/image";
-import { OfficerData } from "./officer-data";
+import { OfficerData, SocialSite } from "./officer-data";
 import styles from "./OfficerCard.module.css";
+
+const socialIcons: Record<SocialSite, string> = {
+  GitHub: "/github_logo.svg",
+  LinkedIn: "/linkedin_logo.png",
+  Website: "/web_logo.svg",
+};
 
 export type OfficerCardProps = {
   position: string;
@@ -8,19 +14,14 @@ export type OfficerCardProps = {
 };
 
 export default function OfficerCard({ position, officer }: OfficerCardProps) {
-  const socialLinks = officer.socialLinksData.map((link) => (
-    <a
-      href={link.url}
-      key={link.name}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+  const socialLinks = Object.entries(officer.socials).map(([site, url]) => (
+    <a href={url} key={site} target="_blank" rel="noopener noreferrer">
       <Image
-        src={link.icon}
-        alt={link.name}
+        src={socialIcons[site as SocialSite]} // cast key from Object.entries
+        alt={site}
         height={30}
         width={30}
-        data-name={link.name}
+        data-name={site}
       />
     </a>
   ));
