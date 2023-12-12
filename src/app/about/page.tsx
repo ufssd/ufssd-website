@@ -11,11 +11,7 @@ export default function About() {
       const officerCards = Object.entries(officers).map(
         ([position, officer]) => {
           return (
-            <OfficerCard
-              key={`${semester} ${position}`}
-              position={position}
-              officer={officer}
-            />
+            <OfficerCard key={position} position={position} officer={officer} />
           );
         },
       );
