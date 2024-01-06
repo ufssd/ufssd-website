@@ -20,6 +20,12 @@ module.exports = {
           "props": false,
         }
       }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "crlf"
+      }
     ]
   }
 };
