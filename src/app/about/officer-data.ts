@@ -153,7 +153,12 @@ export const officerData: Record<string, OfficerData> = {
 
 export const positionData: Record<string, Record<string, OfficerData>> = {
   "Spring 2024": {
+    President: officerData.yonas_bahre,
+    "Vice President": officerData.michael_hayworth,
+    Treasurer: officerData.stephen_coomes,
+    "Outreach Officer": officerData.angel_lopez,
     "Program Officer": officerData.sebastian_sosa,
+    "Involvement Officer": officerData.cj_weir,
   },
   "Fall 2023": {
     President: officerData.yonas_bahre,
