@@ -140,9 +140,26 @@ export const officerData: Record<string, OfficerData> = {
       LinkedIn: "https://linkedin.com/in/yonasbahre",
     },
   },
+  sebastian_sosa: {
+    name: "Sebastian Sosa",
+    image: "public/officers/Sebastian_Sosa.jpg",
+    socials: {
+      GitHub: "https://github.com/CakeCrusher",
+      LinkedIn: "https://www.linkedin.com/in/sebastian-sosa-918b19184/",
+      Website: "https://www.kuoly.com/ctg/880e935b-14c5-44b1-9c69-b5f960230940",
+    },
+  },
 };
 
 export const positionData: Record<string, Record<string, OfficerData>> = {
+  "Spring 2024": {
+    President: officerData.yonas_bahre,
+    "Vice President": officerData.michael_hayworth,
+    Treasurer: officerData.stephen_coomes,
+    "Outreach Officer": officerData.angel_lopez,
+    "Program Officer": officerData.sebastian_sosa,
+    "Involvement Officer": officerData.cj_weir,
+  },
   "Fall 2023": {
     President: officerData.yonas_bahre,
     "Vice President": officerData.michael_hayworth,
