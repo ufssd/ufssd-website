@@ -12,12 +12,12 @@ type CarouselImage = {
 
 const images: CarouselImage[] = [
   {
-    src: "ssd_pictures/ssd_meeting_google_fall_2022.jpg",
-    alt: "SSD members (about 20) at our Fall 2022 meeting with Google.",
-  },
-  {
     src: "ssd_pictures/ssd_networking_event_fall_2022.jpg",
     alt: "SSD members Yonas Bahre, Trevor Richardson, Blake Anderson, and Eric Navar at a Fall 2022 networking event.",
+  },
+  {
+    src: "ssd_pictures/ssd_meeting_google_fall_2022.jpg",
+    alt: "SSD members (about 20) at our Fall 2022 meeting with Google.",
   },
   {
     src: "ssd_pictures/ssd_zoom_meeting_summer_2020.png",

@@ -51,6 +51,27 @@ export const officerData: Record<string, OfficerData> = {
       LinkedIn: "https://linkedin.com/in/cj-weir",
     },
   },
+  carter_swarm: {
+    name: "Carter Swarm",
+    image: "public/officers/Carter_Swarm.jpg",
+    socials: {
+      LinkedIn: "https://www.linkedin.com/in/carterswarm/",
+    },
+  },
+  danny_perojevic: {
+    name: "Danny Perojevic",
+    image: "public/officers/Danny_Perojevic.jpg",
+    socials: {
+      LinkedIn: "https://www.linkedin.com/in/dannyperojevic/"
+    }
+  },
+  derek_smith_nautel: {
+    name: "Derek Smith Nautel",
+    image: "public/officers/Derek_Smith_Nautel.jpg",
+    socials: {
+      LinkedIn: "https://www.linkedin.com/in/dsmithnautel/",
+    },
+  },
   eric_navar: {
     name: "Eric Navar",
     image: "public/officers/Eric_Navar.jpg",
@@ -143,6 +164,11 @@ export const officerData: Record<string, OfficerData> = {
 };
 
 export const positionData: Record<string, Record<string, OfficerData>> = {
+  "Spring 2026": {
+    President: officerData.derek_smith_nautel,
+    "Vice President": officerData.danny_perojevic,
+    Treasurer: officerData.carter_swarm,
+  },
   "Fall 2023": {
     President: officerData.yonas_bahre,
     "Vice President": officerData.michael_hayworth,

@@ -16,8 +16,8 @@ export default function Home() {
           systems and better prepare members for team projects, internships, and
           careers in software development.
         </p>
-        <h2>Spring 2024 Meetings</h2>
-        <p>Tuesday, 6:15pm in CISE A101 and over Zoom</p>
+        <h2>Spring 2026 Meetings</h2>
+        <p>Wednesdays, 6:00pm, Location: TBA on Discord & Instagram</p>
         <ImageCarousel />
       </main>
     </div>
