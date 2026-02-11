@@ -62,8 +62,8 @@ export const officerData: Record<string, OfficerData> = {
     name: "Danny Perojevic",
     image: "public/officers/Danny_Perojevic.jpg",
     socials: {
-      LinkedIn: "https://www.linkedin.com/in/dannyperojevic/"
-    }
+      LinkedIn: "https://www.linkedin.com/in/dannyperojevic/",
+    },
   },
   derek_smith_nautel: {
     name: "Derek Smith Nautel",
