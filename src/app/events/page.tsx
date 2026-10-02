@@ -29,9 +29,13 @@ const EVENTS_DATA: EventSection[] = [
   {
     year: "2026",
     title: "THE CURRENT SEMESTER",
-    gridClass: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5",
+    gridClass: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
     imgHeightClass: "h-48",
     events: [
+      { date: "OCT 2, 2026", title: "Pickleball Social", desc: "A casual evening at Flavet Field for every skill level—play, meet other SSD members, and bring friends.", img: "/Photos/Event/Fall2026-Pickleball-Social.webp" },
+      { date: "SEP 28, 2026", title: "LeetCode Monday #1", desc: "Our first guided problem-solving night in CSE A101, with collaborative LeetCode practice and pizza.", img: "/Photos/Event/Fall2026-LeetCode-Monday.webp" },
+      { date: "SEP 25, 2026", title: "Reitz Game Room Social", desc: "An evening of games and conversation at the Reitz Union Game Room with the SSD community.", img: "/Photos/Event/Fall2026-Reitz-Game-Room.webp" },
+      { date: "SEP 21, 2026", title: "Git & GitHub Workshop", desc: "A hands-on workshop covering repositories, issues, branches, pull requests, and CI/CD in CSE A101.", img: "/Photos/Event/Fall2026-Git-GitHub-Workshop.webp" },
       { date: "SEP 14, 2026", title: "Fall GBM #1", desc: "A packed fall kickoff featuring guest speakers Tina Chi and Alan, club updates, new connections, and dinner together.", img: "/Photos/2026FallGBM/gbm1-crowd-02.webp" },
       { date: "FEB 25, 2026", title: "Spring GBM #2", desc: "Officer announcements, fall opportunities, upcoming events, and the semester T-shirt design competition.", img: "/Photos/Event/Event1.PNG" },
       { date: "FEB 23, 2026", title: "E-Sports Social", desc: "Free games, tournaments, pizza, and a midterm break with ColorStack at the Gator E-Sports Center.", img: "/Photos/Event/Event2.PNG" },

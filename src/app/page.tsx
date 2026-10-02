@@ -218,7 +218,7 @@ export default function HomePage() {
       {/* ================= PARALLAX FEATURE 2: POSTERS ================= */}
       <section className="relative w-full h-[70vh] md:h-[90vh] flex items-center justify-center overflow-hidden bg-ink border-y-[3px] md:border-y-[4px] border-ink">
         <div className="section-bg-wrap absolute inset-0 w-full h-[120%] -top-[10%] z-0">
-          <Image src="/Photos/Event/Event1.PNG" alt="Spring 2026 GBM poster" fill className="section-bg-img object-cover opacity-60" />
+          <Image src="/Photos/Event/Fall2026-Pickleball-Social.webp" alt="Fall 2026 Pickleball Social poster" fill className="section-bg-img object-cover opacity-60" />
         </div>
             <div className="max-w-[1400px] w-full flex justify-end floating-card-layer relative z-10 px-6 md:px-12">
             <div className="bg-white border-[4px] border-ink p-8 md:p-14 shadow-[20px_20px_0px_#B3E5FC] w-full md:w-[45%]">
