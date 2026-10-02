@@ -29,12 +29,14 @@ const EVENTS_DATA: EventSection[] = [
   {
     year: "2026",
     title: "THE CURRENT SEMESTER",
-    gridClass: "grid-cols-1 md:grid-cols-2 lg:grid-cols-4",
+    gridClass: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5",
     imgHeightClass: "h-48",
     events: [
-      { date: "FEB 19, 2026", title: "E-Sports Social", desc: "Gaming, pizza, and relaxing with ColorStack during midterms.", img: "/Photos/Event/Event1.PNG" },
-      { date: "FEB 10, 2026", title: "Officer Apps Open", desc: "Recruiting the next generation of leadership for the board.", img: "/Photos/Event/Event2.PNG" },
-      { date: "JAN 27, 2026", title: "Spring GBM #1", desc: "Semester kickoff introducing core tech opportunities.", img: "/Photos/Event/Event3.PNG" }
+      { date: "SEP 14, 2026", title: "Fall GBM #1", desc: "A packed fall kickoff featuring guest speakers Tina Chi and Alan, club updates, new connections, and dinner together.", img: "/Photos/2026FallGBM/gbm1-crowd-02.webp" },
+      { date: "FEB 25, 2026", title: "Spring GBM #2", desc: "Officer announcements, fall opportunities, upcoming events, and the semester T-shirt design competition.", img: "/Photos/Event/Event1.PNG" },
+      { date: "FEB 23, 2026", title: "E-Sports Social", desc: "Free games, tournaments, pizza, and a midterm break with ColorStack at the Gator E-Sports Center.", img: "/Photos/Event/Event2.PNG" },
+      { date: "FEB 11, 2026", title: "Officer Applications", desc: "Applications opened for students ready to help shape the future of SSD.", img: "/Photos/Event/Event3.PNG" },
+      { date: "JAN 28, 2026", title: "Spring GBM #1", desc: "The semester kickoff in Weil 270, featuring upcoming events, opportunities, and food from Publix.", img: "/Photos/Event/Event4.PNG" }
     ]
   },
   {

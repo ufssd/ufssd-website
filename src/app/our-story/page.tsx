@@ -66,7 +66,7 @@ export default function OurStoryPage() {
             </p>
             {/* Floating Image */}
             <div className="absolute bottom-6 right-6 w-[100px] h-[100px] md:w-[130px] md:h-[130px] border-[4px] border-ink rounded-full overflow-hidden shadow-[4px_4px_0_#000000] animate-float group-hover:rotate-[-8deg] group-hover:scale-110 group-hover:shadow-[6px_6px_0_#B3E5FC] transition-all duration-400 z-20">
-              <Image src="/Photos/2026SpringGBM/2ndGBM4.jpg" alt="SSD Members" fill className="object-cover" />
+              <Image src="/Photos/2026FallGBM/gbm1-camera-03.webp" alt="SSD members at the Fall 2026 GBM" fill className="object-cover" />
             </div>
           </div>
         </ScatterCard>
@@ -74,7 +74,7 @@ export default function OurStoryPage() {
         {/* --- Card 2: Image Only (Span 1x2) --- */}
         <ScatterCard className="md:col-span-1 md:row-span-2" startX="0px" startY="-150px" startRot="5deg">
           <div className="bg-ink border-[4px] border-ink flex flex-col relative overflow-hidden h-full w-full shadow-[6px_6px_0_#000000] transition-all duration-300 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[12px_12px_0_#B3E5FC] interactive-element group rounded-sm p-0">
-            <Image src="/Photos/2020GBM/2020GBM11.PNG" alt="SSD Lecture" fill className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out" />
+            <Image src="/Photos/2026FallGBM/gbm1-crowd-01.webp" alt="A packed Fall 2026 SSD meeting" fill className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out" />
           </div>
         </ScatterCard>
 
@@ -92,21 +92,21 @@ export default function OurStoryPage() {
         {/* --- Card 4: Image Only (Span 2x1) --- */}
         <ScatterCard className="md:col-span-2 md:row-span-1" startX="-100px" startY="0px" startRot="-5deg">
           <div className="bg-ink border-[4px] border-ink flex flex-col relative overflow-hidden h-full w-full shadow-[6px_6px_0_#000000] transition-all duration-300 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[12px_12px_0_#B3E5FC] interactive-element group rounded-sm p-0">
-            <Image src="/Photos/2026SpringGBM/2ndGBM14.jpg" alt="SSD Massive Group" fill className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out" />
+            <Image src="/Photos/2026FallGBM/gbm1-crowd-02.webp" alt="Fall 2026 SSD general body meeting" fill className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out" />
           </div>
         </ScatterCard>
 
         {/* --- Card 5: Image Only (Span 1x1) --- */}
         <ScatterCard className="md:col-span-1 md:row-span-1" startX="100px" startY="50px" startRot="10deg">
           <div className="bg-ink border-[4px] border-ink flex flex-col relative overflow-hidden h-full w-full shadow-[6px_6px_0_#000000] transition-all duration-300 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[12px_12px_0_#B3E5FC] interactive-element group rounded-sm p-0">
-            <Image src="/Photos/2019GBM/2019GBM6.PNG" alt="SSD Brainstorming" fill className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out" />
+            <Image src="/Photos/2026FallGBM/gbm1-checkin.webp" alt="Members checking in at the Fall 2026 GBM" fill className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out" />
           </div>
         </ScatterCard>
 
         {/* --- Card 6: Image Only (Span 1x1) --- */}
         <ScatterCard className="md:col-span-1 md:row-span-1" startX="120px" startY="-20px" startRot="-8deg">
           <div className="bg-ink border-[4px] border-ink flex flex-col relative overflow-hidden h-full w-full shadow-[6px_6px_0_#000000] transition-all duration-300 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[12px_12px_0_#B3E5FC] interactive-element group rounded-sm p-0">
-            <Image src="/Photos/2020GBM/2020GBM12.PNG" alt="SSD Focus" fill className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out" />
+            <Image src="/Photos/2026FallGBM/gbm1-moment-02.webp" alt="SSD members connecting at the Fall 2026 GBM" fill className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out" />
           </div>
         </ScatterCard>
 
@@ -120,7 +120,7 @@ export default function OurStoryPage() {
               </p>
             </div>
             <div className="relative w-full flex-grow min-h-[180px] border-t-[4px] border-ink mt-auto overflow-hidden">
-               <Image src="/Photos/2026SpringGBM/2ndGBM12.jpg" alt="Tech Talk Presentation" fill className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
+               <Image src="/Photos/2026FallGBM/gbm1-moment-05.webp" alt="Guest speaker Tina Chi at the Fall 2026 GBM" fill className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
             </div>
           </div>
         </ScatterCard>
@@ -138,7 +138,7 @@ export default function OurStoryPage() {
         {/* --- Card 9: Image Only (Span 2x1) --- */}
         <ScatterCard className="md:col-span-2 md:row-span-1" startX="100px" startY="80px" startRot="8deg">
           <div className="bg-ink border-[4px] border-ink flex flex-col relative overflow-hidden h-full w-full shadow-[6px_6px_0_#000000] transition-all duration-300 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[12px_12px_0_#B3E5FC] interactive-element group rounded-sm p-0">
-            <Image src="/Photos/2020GBM/2020GBM8.PNG" alt="SSD Coding Session" fill className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out" />
+            <Image src="/Photos/2026FallGBM/gbm1-catering.webp" alt="Food and conversation at the Fall 2026 GBM" fill className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out" />
           </div>
         </ScatterCard>
 

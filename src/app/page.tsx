@@ -134,13 +134,13 @@ export default function HomePage() {
   };
 
   const photoImages = [
-    "/Photos/2026SpringGBM/2ndGBM2.jpg", 
-    "/Photos/2020GBM/2020GBM9.PNG", 
-    "/Photos/Event/Event25.PNG", 
-    "/Photos/2019GBM/2019GBM4.PNG", 
-    "/Photos/Event/Event33.PNG", 
-    "/Photos/2026SpringGBM/2ndGBM14.jpg",
-    "/Photos/2020GBM/2020GBM3.PNG"
+    "/Photos/2026FallGBM/gbm1-crowd-02.webp",
+    "/Photos/2026FallGBM/gbm1-moment-03.webp",
+    "/Photos/2026FallGBM/gbm1-moment-04.webp",
+    "/Photos/2026FallGBM/gbm1-checkin.webp",
+    "/Photos/2026FallGBM/gbm1-camera-03.webp",
+    "/Photos/2026FallGBM/gbm1-moment-01.webp",
+    "/Photos/2026FallGBM/gbm1-catering.webp"
   ];
 
   return (
@@ -199,7 +199,7 @@ export default function HomePage() {
       {/* ================= PARALLAX FEATURE 1: GBMs ================= */}
       <section className="relative w-full h-[70vh] md:h-[90vh] flex items-center justify-center overflow-hidden bg-ink border-b-[3px] md:border-b-[4px] border-ink">
         <div className="section-bg-wrap absolute inset-0 w-full h-[120%] -top-[10%] z-0">
-          <Image src="/Photos/2026SpringGBM/2ndGBM5.jpg" alt="GBM Background" fill className="section-bg-img object-cover opacity-60" />
+          <Image src="/Photos/2026FallGBM/gbm1-crowd-02.webp" alt="Fall 2026 GBM audience" fill className="section-bg-img object-cover opacity-60" />
         </div>
             <div className="max-w-[1400px] w-full flex justify-start floating-card-layer relative z-10 px-6 md:px-12">
             <div className="bg-white border-[4px] border-ink p-8 md:p-14 shadow-[20px_20px_0px_#B3E5FC] w-full md:w-[45%]">
@@ -213,12 +213,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      <PhotoDivider images={["/Photos/2020GBM/2020GBM6.PNG", "/Photos/2019GBM/2019GBM6.PNG", "/Photos/2026SpringGBM/2ndGBM7.jpg", "/Photos/2020GBM/2020GBM15.PNG"]} />
+      <PhotoDivider images={["/Photos/2026FallGBM/gbm1-moment-01.webp", "/Photos/2026FallGBM/gbm1-crowd-01.webp", "/Photos/2026FallGBM/gbm1-moment-03.webp", "/Photos/2026FallGBM/gbm1-camera-03.webp"]} />
 
       {/* ================= PARALLAX FEATURE 2: POSTERS ================= */}
       <section className="relative w-full h-[70vh] md:h-[90vh] flex items-center justify-center overflow-hidden bg-ink border-y-[3px] md:border-y-[4px] border-ink">
         <div className="section-bg-wrap absolute inset-0 w-full h-[120%] -top-[10%] z-0">
-          <Image src="/Photos/Event/Event4.PNG" alt="Design Background" fill className="section-bg-img object-cover opacity-60" />
+          <Image src="/Photos/Event/Event1.PNG" alt="Spring 2026 GBM poster" fill className="section-bg-img object-cover opacity-60" />
         </div>
             <div className="max-w-[1400px] w-full flex justify-end floating-card-layer relative z-10 px-6 md:px-12">
             <div className="bg-white border-[4px] border-ink p-8 md:p-14 shadow-[20px_20px_0px_#B3E5FC] w-full md:w-[45%]">
@@ -232,7 +232,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <PhotoDivider reverse={true} images={["/Photos/2020GBM/2020GBM8.PNG", "/Photos/2026SpringGBM/2ndGBM11.jpg", "/Photos/2019GBM/2019GBM3.PNG", "/Photos/2020GBM/2020GBM12.PNG"]} />
+      <PhotoDivider reverse={true} images={["/Photos/2026FallGBM/gbm1-moment-02.webp", "/Photos/2026FallGBM/gbm1-moment-04.webp", "/Photos/2026FallGBM/gbm1-moment-05.webp", "/Photos/2026FallGBM/gbm1-catering.webp"]} />
 
       {/* ================= PARALLAX FEATURE 3: PROJECTS ================= */}
       <section className="relative w-full h-[70vh] md:h-[90vh] flex items-center justify-center overflow-hidden bg-ink border-t-[3px] md:border-t-[4px] border-ink">

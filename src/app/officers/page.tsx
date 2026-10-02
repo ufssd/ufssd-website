@@ -26,6 +26,15 @@ interface BoardSection {
 }
 const BOARD_DATA: BoardSection[] = [
   {
+    term: "Fall 2026",
+    title: "FALL '26 EXECUTIVE BOARD",
+    officers: [
+      { name: "Danny Perojevic", role: "PRESIDENT", image: "/Photos/Officerheadshot/Danny_Perojevic.jpg" },
+      { name: "Nate Bryan", role: "VICE PRESIDENT" },
+      { name: "Josiah", role: "INTERIM TREASURER" },
+    ]
+  },
+  {
     term: "Spring 2026",
     title: "SPRING '26 BOARD",
     officers: [
